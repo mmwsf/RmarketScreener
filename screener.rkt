@@ -26,7 +26,7 @@
   (if change change 0))
   )
 
-;%linear efficiency finds s&p stock with largest %∆ - may take up to half an hour
+; finds s&p stock with largest %∆ - may take up to half an hour
 (define (biggest-gain list-of-symbols)
 
   (if (= 1 (length list-of-symbols)) (first list-of-symbols)
